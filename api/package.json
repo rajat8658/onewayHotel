@@ -1,0 +1,20 @@
+{
+  "name": "booking-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "4.13",
+    "mongoose": "^6.8.2",
+    "nodemon": "^2.0.20"
+  }
+}

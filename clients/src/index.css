@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Noto Sans', sans-serif ;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  background-color: rgb(255, 55, 0) !important;
+}
+.nav-link{
+  color:white;
+  
+}
+
+.navbar-brand{
+  color:white;
+  font-weight: 650;
+}
+
+.navbar-nav{
+  margin-left: auto;
+  font-weight: 500;
+}
+
+.smallimg{
+  height:200px;
+  width:100%;
+  border-radius: 5px;
+}
+
+h1{
+  font-size: 20px;
+}
+.btn{
+  background-color:rgb(255,55,0) ;
+  color:white;
+  font-weight: 700;
+  box-shadow: black;
+}
+
+.btn1{
+  background-color:green;
+  color:white;
+  font-weight: 500;
+  box-shadow: black;
+  width: auto;
+}
+.btn2{
+  background-color:rgb(23, 19, 19);
+  color:white;
+  font-weight: 500;
+  box-shadow: black;
+}
+
+.bs{
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset !important;
+
+  margin-top: 20px;
+  border-radius: 5px;
+  padding:25px;
+}
+.bigimg{
+  height:350px;
+  border-radius: 5px;
+ 
+}
+
+input, select ,.ant-picker{
+  box-shadow: none;
+  margin-top: 10px !important;
+  border:2px solid black !important;
+  width:100% !important;
+  height:35px;
+  border-radius: 3px;
+ 
+}
+
+h2{
+  font-size: 40px ;
+  padding:20px !important;
+  font-weight: bolder !important;
+  text-align: center !important;
+}
+
+.navbar-light .navbar-toggler-icon{
+  color:black;
+}
+
+.dropdown-toggle{
+  border:0px
+}
+
+.ant-picker{
+  margin-top: 1px;
+}
+.ant-picker-input input{
+  border:none !important
+}
+
+p{
+  font-size: 16px !important;
+}
+
+.bst{
+  background-color: black;
+}
+
+.asr{
+  margin-left: 150px;
+  
+}
+
+.landing{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7R-OFCODKD0xiLIicVQG6r0r1FzLeC7r74H2CBz8HRg&usqp=CAU&ec=48665698") !important ;
+  height:90vh;
+  background-size:300px ;
+  padding-top: 140px;
+}
+
+.landing-btn{
+  margin-top: 20px;
+}
